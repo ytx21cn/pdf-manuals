@@ -1,11 +1,16 @@
-from utils import CSVReader
+import sys
+
+from utils import Wget
 
 
 def main():
-    sources = 'sources.csv'
+    if len(sys.argv) < 2:
+        print('ERROR: no sources csv specified', file=sys.stderr)
+        print(f'Usage: {__file__} <sources.csv>', file=sys.stderr)
+        exit(1)
 
-    data = CSVReader.read_csv(sources)
-    print(data)
+    sources = sys.argv[1]
+    Wget.download_all_if_newer(sources)
 
 
 if __name__ == '__main__':
