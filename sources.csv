@@ -2,6 +2,8 @@ GNU,wget.pdf,https://www.gnu.org/software/wget/manual/wget.pdf
 GNU,libc.pdf,https://www.gnu.org/software/libc/manual/pdf/libc.pdf
 GNU,make.pdf,https://www.gnu.org/software/make/manual/make.pdf
 GNU,coreutils.pdf,https://www.gnu.org/software/coreutils/manual/coreutils.pdf
+GNU,find.pdf,https://www.gnu.org/software/findutils/manual/find.pdf
+GNU,diffutils.pdf,https://www.gnu.org/software/diffutils/manual/diffutils.pdf
 
 Data science,numpy-user.pdf,https://numpy.org/doc/stable/numpy-user.pdf
 Data science,numpy-ref.pdf,https://numpy.org/doc/stable/numpy-ref.pdf
